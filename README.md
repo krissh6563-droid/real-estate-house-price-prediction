@@ -1,10 +1,7 @@
-# Real State House Price Prediction 
-This machine learning model predict the price of real state house based on different properties of the house such as number of bedroom, area of the house nad so on. This machine learning model uses Linear regreassion. 
-# Real Estate House Price Prediction using Machine Learning
+ # Real Estate House Price Prediction using Machine Learning
 
-![Real Estate Prediction](images/cover_image.jpg)
-
-Welcome to the **Real Estate House Price Prediction using Machine Learning** project! This repository contains the code and resources for building a machine learning model that predicts house prices based on various features of the real estate properties.
+Welcome to the **Real Estate House Price Prediction using Machine Learning** project! This repository contains the code and resources for building a machine-learning model that predicts house prices based on various features of real estate properties.
+This machine learning model predicts the price of a real state house based on different properties of the house such as the number of bedrooms, area of the house, and so on. This machine-learning model uses Linear regression.
 
 ## Table of Contents
 
@@ -19,7 +16,7 @@ Welcome to the **Real Estate House Price Prediction using Machine Learning** pro
 
 ## Introduction
 
-The goal of this project is to create a machine learning model that can accurately predict house prices, allowing potential buyers and sellers to make more informed decisions. By analyzing a set of features that describe a property, such as location, size, number of bedrooms, and more, the model will learn patterns and relationships in the data to make predictions.
+The goal of this project is to create a machine-learning model that can accurately predict house prices, allowing potential buyers and sellers to make more informed decisions. By analyzing a set of features that describe a property, such as location, size, number of bedrooms, and more, the model will learn patterns and relationships in the data to make predictions.
 
 ## Dataset
 
@@ -29,17 +26,17 @@ The dataset used for this project contains a collection of real estate listings 
 
 1. Clone this repository to your local machine using:
    ```
-   git clone https://github.com/yourusername/real-estate-prediction.git
+   git clone https://github.com/krissh6563-droid/real-estate-house-price-prediction.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd real-estate-prediction
+   cd real-estate-house-price-prediction
    ```
 
 3. Create a virtual environment (optional but recommended) using:
    ```
-   python -m venv venv
+   python -m venv env
    ```
 
 4. Activate the virtual environment:
@@ -61,7 +58,7 @@ The dataset used for this project contains a collection of real estate listings 
 
 1. After installation, you can run the project using:
    ```
-   python predict_house_price.py
+   python models.ipynb
    ```
 
 2. This will prompt you to enter the property details such as size, number of bedrooms, neighborhood, etc.
